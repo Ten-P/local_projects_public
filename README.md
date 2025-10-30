@@ -18,7 +18,14 @@
 1. GUIからPDFファイルを選択し、処理を開始  
 2. 選択したファイルを前処理したうえで、企業のオンプレGPUサーバーにHTTPS接続し、OCR処理をGPUマシン上で実行  
 3. 抽出結果をJSON形式でクライアントに返却し、誤認識の可能性がある文字列をGUI上で手動修正可能  
-4. 編集が完了したらExcelへ出力し、一連の処理が完了  
+4. 編集が完了したらExcelへ出力し、一連の処理が完了
+
+<p align="center">
+<img src="img/GUI1.png" alt="GUIの画像1" width="400">
+<img src="img/GUI2.png" alt="GUIの画像2" width="400">
+<img src="img/GUI3.png" alt="GUIの画像3" width="400">
+<img src="img/GUI4.png" alt="GUIの画像4" width="400">
+</p>
 
 ## 各ファイルについて
 - **pdf2xlsx.py**: メインスクリプト。tkinterによるGUI部分を実装  
