@@ -11,7 +11,7 @@
 - **言語**: Python  
 - **GUI**: tkinter  
 - **OCRエンジン**: PaddleOCR  
-- **処理環境**: 外部GPUサーバー（HTTPS経由で接続）  
+- **処理環境**: 外部GPUサーバー（HTTP経由で接続）  
 - **出力**: Excel (pandas, openpyxl)  
 
 ## 大まかな処理の流れ
